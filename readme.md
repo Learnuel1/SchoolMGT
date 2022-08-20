@@ -2,18 +2,18 @@
 
 # Description
 
-This is a website that will serve as a respository for lesson notes and submittion of exam scores for student and also access to student results.
+This is a website that will serve as a respository for lesson notes,lesson videos and submittion of assignments and exam scores for student and also allow students view their results.
 
 # FUNCTIONALITY
 
-1. **Lesson Area:**
-- Lesson note: Student will have access to teachers lesson note for all subjects from their dashboard
-- Lesson video: This a video that are available to students, they can play, pause and seek
-- Assignment: Teachers can give assignment to students which can be either typed directly or upload in the following format (pdf,exl,doc,ppt,txt).
 1. **Student Dashboard**
     
     This is the portal for each student to login and perform the following operations:
-    
+   
+    - Lesson note: Student will have access to teachers lesson note for all subjects from their dashboard
+    - Lesson video: This a video that are available to students, they can play, pause and seek
+    - Assignment: Teachers can give assignment to students which can be either typed directly or upload in the following format (pdf,exl,doc,ppt,txt).
+
     - View/print academic result(s)
     - Take a lesson (video/note)
     - Submit assignments
@@ -37,10 +37,16 @@ This is a website that will serve as a respository for lesson notes and submitti
     - Submit result sheet to the administration for approval
     - File a complaint
     
-    1. **Result Preparation**
+    **Result Preparation**
     
     This will allow teachers to upload results into the application by entering the score of each subject for each student.
-    
+
+  3. **Administrator Dashboard**
+
+   - Allocate teachers to class
+   - Allocate subjects to teachers
+   - View and attend to complaints from student and teachers
+   
     **How are result entered into the application?**
     
     Teacher are to select the following to enter student score:
@@ -57,11 +63,11 @@ This is a website that will serve as a respository for lesson notes and submitti
     
     1. Term Result: this is a single term result
     
-    ![Frist Term.jpg](EVASANTOS%20APP%20SRS%202418449450de4a11b5c559271966a3e7/Frist_Term.jpg)
+    ![Frist Term.jpg](https://drive.google.com/file/d/1tR8ORt80BL9z8-lf1BUlHhbuImBADRyK/view?usp=sharing)
     
     1. Cummulative Result: This is the Third term result sheet.
     
-    ![Third.jpg](EVASANTOS%20APP%20SRS%202418449450de4a11b5c559271966a3e7/Third.jpg)
+    ![Third.jpg](https://drive.google.com/file/d/1woD8J0fS3VorPrBMzfL-W2MUTIYvAigo/view?usp=sharing)
     
     ### **Users**
     
@@ -97,7 +103,7 @@ This is a website that will serve as a respository for lesson notes and submitti
     
     **TYPES OF ADMIN:**
     
-    **ICT Manager:** over sees the entire system and database
+    **ICT Manager:** oversees the entire system
     
     **Princinpal:** This is admin for secondary section
     
@@ -144,9 +150,9 @@ This is a website that will serve as a respository for lesson notes and submitti
     
     **QUESTIONS**
     
-    Do student have ID if yes how is the ID generated?
+    Do students have ID if yes how is the ID generated?
     
-    ANSWER: Yes, the ID is the student roll number in the attantance register, this is called Admin Number.
+    ANSWER: Yes, the ID is the student's roll number in the attantance register, this is called Admin Number.
     
     ### **Required Modification For Student ID**
     
@@ -159,8 +165,6 @@ This is a website that will serve as a respository for lesson notes and submitti
     EISP/2022/225 (P for Primary)
     
     EISS/2022/200 (S for Secondary) and so on.
-    
-    Admin No: is the serial number of the Register
+     
 
     # APPLICATION STRUCTURE
-    
