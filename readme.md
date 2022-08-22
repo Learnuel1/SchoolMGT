@@ -184,9 +184,9 @@ This API will allow only users with **admin** role to -create account-, -approve
 **Note**
 POST/auth/login will not require authentication to allow users login to the appliaiton.
 
-2. Implement CRUD for Teachers Model(GET, POST, PUT, PATCH and DELETE **/teacher only -admin- is allow to create and delete teacher account).s
+2. Implement CRUD for Teachers Model(GET, POST, PUT, PATCH and DELETE **/teacher** only *admin* is allow to create and delete teacher account).s
 
-3. Implement CRUD for Student Model(GET, POST, PUT, PATCH, and DELETE for **/student** only users with -admin- role can delete student account).
+3. Implement CRUD for Student Model(GET, POST, PUT, PATCH, and DELETE for **/student** only users with *admin* role can delete student account).
 
 4. Implement CRUD for Result Model(GET, POST, PUT and DELETE **/result** only users with teachers role can add and delete result).
 
@@ -194,7 +194,7 @@ POST/auth/login will not require authentication to allow users login to the appl
 - lesson/assignment (to submit assignment)
 - lesson/result (to get assignment result details)
 
--**(...feature will be updated)**-
+**(...feature will be updated)**
 
 # SCHEMA
 
