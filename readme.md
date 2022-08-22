@@ -166,3 +166,63 @@ EISP/2022/225 (P for Primary)
 EISS/2022/200 (S for Secondary) and so on.
   
 # APPLICATION STRUCTURE
+
+# DESCRIPTION
+This API will allow only users with **admin** role to -create account-, -approve result-,-assign teachers-, -assign subjects-, -block account- and -unblock account- .
+
+# FEATURES
+
+1. Implement the following authenticated routes using JWT:
+- auth/create
+- auth/login
+- auth/logout
+- auth/block
+- auth/session
+- auth/assign
+- auth/subject
+
+**Note**
+POST/auth/login will not require authentication to allow users login to the appliaiton.
+
+2. Implement CRUD for Teachers Model(GET, POST, PUT, PATCH and DELETE **/teacher only -admin- is allow to create and delete teacher account).s
+
+3. Implement CRUD for Student Model(GET, POST, PUT, PATCH, and DELETE for **/student** only users with -admin- role can delete student account).
+
+4. Implement CRUD for Result Model(GET, POST, PUT and DELETE **/result** only users with teachers role can add and delete result).
+
+5. Implement CRUD for Lesson Model(GET, POST, PUT AND DELETE, **/lesson** only users with teacher role can add and delete lesson). The followin route will be implemented as well.
+- lesson/assignment (to submit assignment)
+- lesson/result (to get assignment result details)
+
+-**(...feature will be updated)**-
+
+# SCHEMA
+
+## USER
+```
+_id:          -> ObjectID
+username:     -> String
+password:     -> String
+role:         -> String enum["Student","Teacher","Other"]
+refreshToken  -> [String]
+createAt:     -> Date
+updatedAt:    -> Date
+```
+
+## Teacher
+```
+_id:            ->objectID 
+userid:       -> ObjectId(ref)
+firstname:    -> String
+lastname:     -> String
+othername:    -> String
+picture:      -> String 
+signature:    -> String
+dob:          -> Date
+contact:      -> String
+adminRole:    -> String enum["none","ICT Manager","Principal","Head Mistress","Head Teacher"]
+postion:      -> String 
+email:        -> String
+createdAt:    -> Date
+updatedAt:    -> Date
+```
