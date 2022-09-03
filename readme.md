@@ -63,11 +63,11 @@ There are two type of results:
 
 1. Term Result: this is a single term result
 
-![Frist Term.jpg](https://photos.app.goo.gl/JpysSCZEGQiyAPvq5)
+![Frist Term.jpg](./client/img/First%20Term.jpg)
 
 1. Cummulative Result: This is the Third term result sheet.
 
-![Third.jpg](https://photos.app.goo.gl/uPMHd64bGyvw1ifp9)
+![Third Term.jpg](./client/img/Third%20Term.jpg)
 
 ### **Users**
 
